@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import "./App.css"
 
-function App() {
+import Dashboard1 from './Componennts/NSDT/Dashboard/Dashboard1';
+import Yardheaders from './Componennts/YARD/Yardheaders';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NsdtBody from './Componennts/MAIN/Nsdt-Body';
+import Footer from './Componennts/Footer/Footer';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+
+      <Dashboard1 />
+        <Routes>
+        <Route path="/" element={<NsdtBody />} />
+          <Route path="/container_planning" element={<Yardheaders />} />
+        
+
+
+
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
-}
+};
 
 export default App;
