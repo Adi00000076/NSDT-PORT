@@ -4,7 +4,7 @@ import NSDT from "./Images/NSDT-1.png";
 const NsdtBody = () => {
   return (
     <>
-      <div className="jumbotron d-flex align-items-center justify-content-center" style={{ backgroundColor: 'rgba(255, 255, 255, 0.7)', minHeight: '100vh' }}>
+      <div className="jumbotron d-flex align-items-center justify-content-center" style={{ backgroundColor: 'teal', minHeight: '100vh' }}>
         <div className="row">
           <div className="col text-center">
             <img
