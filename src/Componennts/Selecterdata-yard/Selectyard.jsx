@@ -11,7 +11,7 @@ const MyDropdown = () => {
 
   return (
     <>
-      <div className="container-fluid shadow position-fixed">
+      <div className="container-fluid shadow ">
         <div className="row" >
           <div className="col-sm-9" id="Totaldata">
             <button className="btn btn-secondary btn-sm">Total Review </button>
