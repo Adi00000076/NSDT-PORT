@@ -2,13 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <footer className="text-center text-lg-start bg-body-tertiary text-muted">
+    <div className="container-fluid mt-5">
+      <div className="row mt-5">
+        <footer className="text-center text-lg-start bg-body-tertiary text-muted bg-dark text-white ">
           <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <div className="me-5 d-none d-lg-block">
-              <span>Get connected with us on social networks:</span>
-            </div>
+           
             <div>
               <a href="" className="me-4 text-reset">
                 <i className="fab fa-facebook-f"></i>
@@ -36,7 +34,7 @@ const Footer = () => {
               <div className="row mt-3">
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   <h6 className="text-uppercase fw-bold mb-4">
-                    <i className="fas fa-gem me-3"></i>Company name
+                    <i className="fas fa-gem me-3"></i>© 2023www.portall.in All rights reserved.
                   </h6>
                   <p>
                     Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -49,16 +47,19 @@ const Footer = () => {
                     Products
                   </h6>
                   <p>
-                    <a href="#!" className="text-reset">Angular</a>
+                    <a href="#!" className="text-reset">Dashboard</a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">React</a>
+                    <a href="#!" className="text-reset">Commercial</a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Vue</a>
+                    <a href="#!" className="text-reset">Planing</a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Laravel</a>
+                    <a href="#!" className="text-reset">Admin</a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">Help</a>
                   </p>
                 </div>
 
@@ -67,16 +68,16 @@ const Footer = () => {
                     Useful links
                   </h6>
                   <p>
-                    <a href="#!" className="text-reset">Pricing</a>
+                    <a href="#!" className="text-reset">Operation</a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Settings</a>
+                    <a href="#!" className="text-reset">Transport</a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Orders</a>
+                    <a href="#!" className="text-reset">Invoicde</a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Help</a>
+                    <a href="#!" className="text-reset">Reports</a>
                   </p>
                 </div>
 
@@ -85,18 +86,18 @@ const Footer = () => {
                   <p><i className="fas fa-home me-3"></i> New York, NY 10012, US</p>
                   <p>
                     <i className="fas fa-envelope me-3"></i>
-                    info@example.com
+                    nsdt@gmail.com
                   </p>
-                  <p><i className="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                  <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p>
+                  <p><i className="fas fa-phone me-3"></i> + 01 000000000</p>
+                  <p><i className="fas fa-print me-3"></i> + 01 000000000</p>
                 </div>
               </div>
             </div>
           </section>
 
           <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
-            © 2021 Copyright:
-            <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            © 2023 Copyright:
+            <a className="text-reset fw-bold" href="">nsdt.com</a>
           </div>
         </footer>
       </div>

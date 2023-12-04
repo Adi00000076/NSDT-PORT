@@ -9,10 +9,10 @@ const Yardheaders = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <nav className="navbar navbar-light bg-light">
   <form className="container-fluid justify-content-start">
-    <button className="btn btn-sm  btn-outline-success me-2" type="button">
+    <button className="btn btn-sm  btn-outline-warning me-2" type="button">
      Actual
     </button>
-    <button className="btn btn-sm btn-outline-secondary me-2" type="button">
+    <button className="btn btn-sm btn-outline-dark me-2" type="button">
  Planned
     </button>
   </form>
@@ -25,25 +25,25 @@ const Yardheaders = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <button className="nav-link btn btn-secondary me-1 btn-sm" style={{ backgroundColor: "#ff4d1a", fontSize: "14px" }} aria-current="page">Planned List</button>
+            <button className="nav-link btn btn-dark text-white border-5 rounded-pill me-1 btn-sm" aria-current="page">Planned List</button>
           </li>
           <li className="nav-item">
-            <button className="nav-link btn btn-secondary me-1 btn-sm" style={{ backgroundColor: "#ff4d1a" }}>Failed To Deck</button>
+            <button className="nav-link btn btn-dark text-white border-5 rounded-pill me-1 btn-sm" >Failed To Deck</button>
           </li>
           <li className="nav-item">
-            <button className="nav-link btn btn-secondary me-1 btn-sm" style={{ backgroundColor: "#ff4d1a" }}>Hanging</button>
+            <button className="nav-link btn btn-dark text-white border-5 rounded-pill me-1 btn-sm" >Hanging</button>
           </li>
           <li className="nav-item">
-            <button className="nav-link btn btn-secondary me-1 btn-sm" style={{ backgroundColor: "#ff4d1a" }}>Delivery Failed</button>
+            <button className="nav-link btn btn-dark text-white border-5 rounded-pill me-1 btn-sm" >Delivery Failed</button>
           </li>
           <li className="nav-item">
-            <button className="nav-link btn btn-secondary me-1 btn-sm" style={{ backgroundColor: "#ff4d1a" }}>Buy Road Queue(in/out)</button>
+            <button className="nav-link btn btn-dark text-white border-5 rounded-pill me-1 btn-sm" >Buy Road Queue(in/out)</button>
           </li>
           <li className="nav-item">
-            <button className="nav-link btn btn-secondary me-1 btn-sm" style={{ backgroundColor: "#ff4d1a" }}>Role Queue(in/out)</button>
+            <button className="nav-link btn btn-dark text-white border-5 rounded-pill me-1 btn-sm" >Role Queue(in/out)</button>
           </li>
           <li className="nav-item">
-            <button className="nav-link btn btn-secondary me-1 btn-sm" style={{ backgroundColor: "#ff4d1a" }}>Moment History</button>
+            <button className="nav-link btn btn-dark text-white border-5 rounded-pill me-1 btn-sm" >Moment History</button>
           </li>
         </ul>
       </div>

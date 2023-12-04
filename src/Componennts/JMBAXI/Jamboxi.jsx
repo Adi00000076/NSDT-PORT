@@ -10,7 +10,7 @@ const Jamboxi = () => {
       <div className="container mt-5">
         <div className="row mt-5">
           <div className="col-lg-12  text-center">
-            <img src={JMBOX1} className="img-fluid w-100" alt="Jamboxi Image" />
+            <img src={JMBOX1} className="img-fluid w-100" alt="Jamboxi Image" style={{height:"100%"}} />
           </div>
 
          

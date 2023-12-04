@@ -14,8 +14,8 @@ const MyDropdown = () => {
       <div className="container-fluid shadow ">
         <div className="row" >
           <div className="col-sm-9" id="Totaldata">
-            <button className="btn btn-secondary btn-sm">Total Review </button>
-            <label htmlFor="myDropdown">VIA</label>
+            <button className="btn btn-dark text-white border-5 rounded-pill me-1 btn-sm">Total Review </button>
+            <label htmlFor="myDropdown" >VIA</label>
             <select
               id="myDropdown"
               value={selectedOption}
@@ -99,13 +99,13 @@ const MyDropdown = () => {
 
             {selectedOption && <p>You selected: {selectedOption}</p>}
 
-            <label htmlFor="myDropdown">Liner</label>
+            <label htmlFor="myDropdown" className="">Liner</label>
             <select
               id="myDropdown"
               value={selectedOption}
               onChange={handleSelectChange}
             >
-              <option value="">Select...</option>
+              <option value="" >Select...</option>
               <option value="option1">Option 1</option>
               <option value="option2">Option 2</option>
               <option value="option3">Option 3</option>
@@ -139,10 +139,10 @@ const MyDropdown = () => {
 
 
        <div className="d-flex m-auto">
-              <button className="btn btn-secondary btn-sm">Search </button>
-              <button className="btn btn-secondary btn-sm">Review </button>
+              <button  className="btn btn-dark text-white border-5 rounded-pill me-1 btn-sm">Search </button>
+              <button  className="btn btn-dark text-white border-5 rounded-pill me-1 btn-sm">Review </button>
 
-              <button className="btn btn-secondary btn-sm">Reset </button>
+              <button  className="btn btn-dark text-white border-5 rounded-pill me-1 btn-sm">Reset </button>
             </div>
        </div>
         </div>
