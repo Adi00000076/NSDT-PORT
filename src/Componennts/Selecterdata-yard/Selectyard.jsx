@@ -114,7 +114,7 @@ const MyDropdown = () => {
             {selectedOption && <p>You selected: {selectedOption}</p>}
         
     <div>
-  <input type="radio" id="hc" name="hc" defaultValue={30} />
+  {/* <input type="radio" id="hc" name="hc" defaultValue={30} />
   <label htmlFor="hc">HC</label><br />
 
 
@@ -128,7 +128,7 @@ const MyDropdown = () => {
 
 
   <label htmlFor="tier">Tier Level</label><br />  
-  <input type="radio" id="tier" name="hc" defaultValue={100} />
+  <input type="radio" id="tier" name="hc" defaultValue={100} /> */}
 
 </div>
 

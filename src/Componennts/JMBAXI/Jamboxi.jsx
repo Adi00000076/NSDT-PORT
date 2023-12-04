@@ -1,37 +1,27 @@
-import React from 'react'
-import JMBOX1 from "./Images/image_9.svg"
-import Selectyard from '../Selecterdata-yard/Selectyard'
-import Formdata from './Formdispaly/Formdata'
+import React from "react";
+import JMBOX1 from "./Images/image_9.svg";
+import Selectyard from "../Selecterdata-yard/Selectyard";
+import Formdata from "./Formdispaly/Formdata";
 
 const Jamboxi = () => {
   return (
- <>
- 
- <Selectyard />
- <div className="container">
+    <>
+      <Selectyard />
+      <div className="container mt-5">
+        <div className="row mt-5">
+          <div className="col-lg-12  text-center">
+            <img src={JMBOX1} className="img-fluid w-100" alt="Jamboxi Image" />
+          </div>
 
-    <div className="row">
-        <div className="col text-center mx-5  d-flex justify-content-center">
-
-        <img src={JMBOX1}  className='img-thumbnail'/>
-
-        
-
+         
         </div>
+      </div>
 
+      <div className=" col-md-12">
+            <Formdata />
+          </div>
+    </>
+  );
+};
 
-   <div className="col-sm">
-   <Formdata />
-   </div>
-
-    </div>
-
-
-
- </div>
-
- </>
-  )
-}
-
-export default Jamboxi
+export default Jamboxi;

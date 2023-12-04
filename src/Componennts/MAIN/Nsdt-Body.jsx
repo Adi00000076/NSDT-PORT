@@ -8,7 +8,7 @@ const NsdtBody = () => {
         <div className="row">
           <div className="col text-center">
             <img
-              style={{ Width: '100%', height: '100%', opacity: 0.8 }}
+              style={{ minWidth: '100%', height: '100%', opacity: 0.8 }}
               className="img-thumbnail"
               src={NSDT}
               alt="nsdt-1 image"

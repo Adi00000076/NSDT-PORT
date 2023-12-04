@@ -39,7 +39,7 @@ const Dashboard1 = () => {
     <>
 
 
-<nav class="navbar navbar-expand-lg navbar-light w-100 position-fixed  shadow-sm" style={{backgroundColor:"pink",color:"white",fontWeight:"bold",fontSize:"15px"}}>
+<nav class="navbar navbar-expand-lg navbar-light w-100 position-fixed  shadow-sm" style={{backgroundColor:"#ff4d1a ",color:"black",fontWeight:"bold",fontSize:"15px"}}>
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><FaHome /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
