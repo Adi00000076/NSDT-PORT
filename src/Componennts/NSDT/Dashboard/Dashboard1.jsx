@@ -34,6 +34,10 @@ import { AiFillCreditCard } from "react-icons/ai";
 import { TbHelp } from "react-icons/tb";
 
 
+
+
+
+
 const Dashboard1 = () => {
   return (
     <>
@@ -41,7 +45,7 @@ const Dashboard1 = () => {
 
 <nav class="navbar navbar-expand-lg navbar-light  shadow-sm" style={{backgroundColor:"#ff4d1a ",color:"black",fontWeight:"bold",fontSize:"14px"}}>
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><FaHome /></a>
+    <Link to='/home' class="navbar-brand" ><FaHome /></Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -94,7 +98,7 @@ const Dashboard1 = () => {
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><Link to='/container_planning' class="dropdown-item" href="#">Yard Planing</Link></li>
+            <li><Link to='/container_planning' class="dropdown-item" href="#">Yard Planing Container</Link></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>

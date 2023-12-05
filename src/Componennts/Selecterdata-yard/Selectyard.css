@@ -24,3 +24,30 @@
 font-size: 15px;
 margin-top: 10px;
   }
+
+
+
+
+
+
+  /* last navbr fixed */
+
+
+  .fixed-right {
+    margin-top: 250px;
+    position: fixed;
+    top: 0; /* You can adjust the top position */
+    right: 0; /* Fixed to the right side of the page */
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #f8f9fa; /* Background color for the navbar */
+  }
+  
+  .btn-group-vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn-group-vertical button {
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
