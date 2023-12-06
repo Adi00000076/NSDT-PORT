@@ -1,19 +1,30 @@
 import React, { useState } from "react";
-
-import "./Selectyard.css";
-
-
 import { TiHomeOutline } from "react-icons/ti";
 import { PiEqualsFill } from "react-icons/pi";
 import { IoCloseOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
+import { useNavigate } from "react-router-dom";
+import "./Selectyard.css";
+
 const MyDropdown = () => {
+  const locationHistory = useNavigate();
   const [selectedOption, setSelectedOption] = useState("");
+  const [isModalOpen, setModalOpen] = useState(false);
 
   const handleSelectChange = (event) => {
     setSelectedOption(event.target.value);
   };
+
+  const openModaldata = () => {
+    setModalOpen(true);
+    locationHistory("/Planyard"); // Use push instead of direct assignment  to next path location form data dispaly 
+  };
+
+  const closeModaldata = () => {
+    setModalOpen(false);
+  };
+
 
   return (
     <>
@@ -160,16 +171,49 @@ const MyDropdown = () => {
       </div>
 
       <div className="container">
-  <div className="row">
-    <div className="col">
-      <div className="btn-group-vertical fixed-right">
-    <Link to='/home'  className="btn btn-outline-dark"  size={32} color="red"> <TiHomeOutline /> </Link>  {/* Adjust size and color as needed */}
-      <PiEqualsFill  className="btn btn-outline-dark"   size={32} color="green" /> {/* Adjust size and color as needed */}
-    <Link to='/' className="btn btn-outline-dark"   size={32} color="blue" >  <IoCloseOutline  /> </Link>{/* Adjust size and color as needed */}
+        <div className="row">
+          <div className="col">
+            <div className="btn-group-vertical fixed-right">
+              <Link
+                to="/home"
+                className="btn btn-outline-dark"
+                size={32}
+                color="red"
+              >
+                {" "}
+                <TiHomeOutline />{" "}
+              </Link>
+              <Link
+                to="/planyard/"
+                onClick={openModaldata}
+                className="btn btn-outline-dark"
+                size={32}
+                color="green"
+              >
+                {" "}
+                <PiEqualsFill />
+              </Link>
+              <Link
+                to="/"
+                className="btn btn-outline-dark"
+                size={32}
+                color="blue"
+              >
+                {" "}
+                <IoCloseOutline />{" "}
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
+
+      {isModalOpen && (
+        <div className="modal">
+          {/* Add your form details and other content for the modal */}
+          <h2>Modal Content</h2>
+          <button onClick={closeModaldata}>Close</button>
+        </div>
+      )}
     </>
   );
 };

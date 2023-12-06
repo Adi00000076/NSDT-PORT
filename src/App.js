@@ -7,6 +7,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NsdtBody from './Componennts/MAIN/Nsdt-Body';
 import Footer from './Componennts/Footer/Footer';
 import Home from './Componennts/Pages/Home/Home';
+import Planyard from './Componennts/Pages/PlanYard/Planyard';
+
+
+
+
 
 const App = () => {
   return (
@@ -20,6 +25,8 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<NsdtBody />} />
           <Route path="/container_planning" element={<Yardheaders />} />
+          <Route path="/Planyard" element={<Planyard />} />
+         
         
 
 
